@@ -1,0 +1,27 @@
+ &MOM_input_nml
+         output_directory = './',
+         input_filename = 'r'
+         restart_input_dir = 'INPUT_linear/',
+         restart_output_dir = 'RESTART_linear/',
+         parameter_filename = 'MOM_input',
+                              'MOM_override' /
+
+ &diag_manager_nml
+ /
+
+&fms_nml
+	domains_stack_size = 250000
+	clock_grain='ROUTINE'
+	clock_flags='NONE'
+/
+
+ &particles_nml
+   really_debug = .false.
+   traj_write_hrs = 24
+   traj_sample_hrs = 24
+   do_unit_tests = .true.
+   generate_days = 0
+   generate_lons = 1.001,40,1
+   generate_lats = 35.001,39,5
+   generate_d = 0.001,1000,100
+/
