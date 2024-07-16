@@ -17,4 +17,4 @@ Texas A&M 2023-2024
 :shell: For experiments, `MOM_input` had varied `KD` values. \
 :ocean:  Faked drifter restart file had 1 particle/grid cell at $10^{\circ}S$ from $0^{\circ}E$ to $40^{\circ}E$. (40 lon $\times$ 32 depth = 1280 particles seeded).
 
-* `src/drifters` code is from [drifters](https://github.com/kailauyeda/drifters) (forked from [Spencer's drifters package](https://github.com/cspencerjones/drifters))
+* `src/drifters` code is from [drifters](https://github.com/kailauyeda/drifters) ([Spencer's drifters package](https://github.com/cspencerjones/drifters))
