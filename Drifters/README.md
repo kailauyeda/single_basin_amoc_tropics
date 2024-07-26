@@ -5,8 +5,8 @@ Notebooks used for analyzing drifter data output.
 
 |Notebook | Purpose|
 |:--| :--|
-|`7-*_60yr_make_full_traj_20N_*.ipynb` | Convert `drifter_trajectories.nc` output from `i` coordinates to `(i,time)` coordinates with `Sv` datavariable. |
-|`7-*_TD_60yrs_*_above1000m*.ipynb`| Figures|
+|`make_full_traj_20N*` | Convert `drifter_trajectories.nc` output from `i` coordinates to `(i,time)` coordinates with `Sv` datavariable. |
+|`Northward_Drifter_Volume*`| Figures|
 
 Locations of output files used in notebooks.
 
