@@ -9,3 +9,5 @@ Notebooks used for analyzing drifter data output.
 |`7-*_TD_60yrs_*_above1000m*.ipynb`| Figures|
 
 Locations of output files used in notebooks.
+
+Drifters were run for 60 years. 
