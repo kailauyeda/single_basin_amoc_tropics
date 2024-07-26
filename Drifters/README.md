@@ -20,4 +20,6 @@ Drifters were run for 60 years.
 | | | `7-23_TD_SB_reach20N_above1000m_mintime_ds_*_SB.nc`| 
 | | | `7-23_TD_KD1E-5_reach20N_above1000m_mintime_ds_*_KD1E-5.nc`|
 | | | `7-23_TD_KD0_reach20N_above1000m_mintime_ds_*_KD0.nc`|
-| | `/h/kuyeda/3-12_sb/` | |
+| | `/h/kuyeda/3-12_sb/` | `7-17_SB_linear_d2_prog__1509_354.nc`|
+| |`3-7_KD1E-5 ` | `7-20_KD1E-5_linear_d2_prog__1410_014.nc`|
+| | `7-8_KD0`| `7-20_KD0_linear_d2_prog__1410_014.nc`|
