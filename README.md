@@ -9,7 +9,7 @@ Texas A&M 2023-2024
 |`diag_table`| diag_table|
 |`input.nml`| input file with particle location specifications|
 |`6-21_build_INPUT/` | Python notebooks to build `INPUT` files |
-|`INPUT/` | Input files & Python notebook to visualize|
+|`INPUT/` | Input files & Python notebook to visualize 🌊|
 |`MOM6_changes/`| Changes to `../src/MOMO6/config_src/drivers/solo_driver/`|
 
 <br></br>
