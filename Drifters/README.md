@@ -5,9 +5,11 @@ Notebooks used for analyzing experiment data output.
 
 |Notebook | Purpose|
 |:--| :--|
+|**Drifters NBs** | |
 |`make_full_traj*` | Convert `drifter_trajectories.nc` output from `(i)` coordinates to `(i,time)` coordinates with `Sv` datavariable. |
 |`Northward_Drifter*`| Drifter Figures.|
 |`Plan_View_Drifters`| Drifter Figures.|
+|**Ocean Diagnostics NBs** | |
 |`Resid_*`| Residual streamfunctions.|
 |`net_heat*`| Heat flux \& meridional Velocity ocean figures.|
 |`stratification+baroclinic*`| Temperature profiles & barotropic streamfunctions.|
@@ -20,6 +22,8 @@ C. `/vortex1/kuyeda_files/diagnostics_files/`
   1. `3-12_sb`
   2. `3-7_KD1E-5` 
   3. `7-8_KD0`
+
+*Additional files generated can be found in `/h/kuyeda/`*
 
 ## Drifters Notebooks 
 |Notebook|File Path in NB| Files in NB| Vortex1 File Location|
