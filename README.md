@@ -9,13 +9,12 @@ Texas A&M 2023-2024
 |`diag_table`| diag_table|
 |`input.nml`| input file with particle location specifications|
 |`6-21_build_INPUT/` | Python notebooks to build `INPUT` files |
-|`6-21_INPUT_files/`| faked drifter restart file :ocean: |
 |`INPUT/` | Input files & Python notebook to visualize|
 |`MOM6_changes/`| Changes to `../src/MOMO6/config_src/drivers/solo_driver/`|
 
 <br></br>
-:shell: For experiments, `MOM_input` had varied `KD` values. \
-:ocean:  Faked drifter restart file had 1 particle/grid cell at $10^{\circ}S$ from $0^{\circ}E$ to $40^{\circ}E$. (40 lon $\times$ 32 depth = 1280 particles seeded).
+:shell: For experiments, `MOM_input` had varied `KD` values (KD = 5E-6, KD=1E-5, KD=0). \
+:ocean:  Faked drifter restart file in `INPUT` had 1 particle/grid cell at $10^{\circ}S$ from $0^{\circ}E$ to $40^{\circ}E$. (40 lon $\times$ 32 depth = 1280 particles seeded).
 
 * `src/drifters` code is from [drifters](https://github.com/kailauyeda/drifters) ([Spencer's drifters package](https://github.com/cspencerjones/drifters))
 * `RESTART` files are located in `/vortex1/kuyeda_files/RESTART_files`.
