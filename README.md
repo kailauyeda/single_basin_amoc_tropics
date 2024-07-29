@@ -18,3 +18,4 @@ Texas A&M 2023-2024
 :ocean:  Faked drifter restart file had 1 particle/grid cell at $10^{\circ}S$ from $0^{\circ}E$ to $40^{\circ}E$. (40 lon $\times$ 32 depth = 1280 particles seeded).
 
 * `src/drifters` code is from [drifters](https://github.com/kailauyeda/drifters) ([Spencer's drifters package](https://github.com/cspencerjones/drifters))
+* `RESTART` files are located in `/vortex1/kuyeda_files/RESTART_files`.
