@@ -28,6 +28,9 @@ ADIABATIC = FALSE                !   [Boolean] default = False
                                 ! There are no diapycnal mass fluxes if ADIABATIC is true. This assumes that KD
                                 ! = KDML = 0.0 and that there is no buoyancy forcing, but makes the model faster
                                 ! by eliminating subroutine calls.
+THICKNESSDIFFUSE = True        !   [Boolean] default = False
+                                ! If true, isopycnal surfaces are diffused with a Laplacian coefficient of KHTH.
+
 DT = 6000.0                     !   [s]
                                 ! The (baroclinic) dynamics time step.  The time-step that is actually used will
                                 ! be an integer fraction of the forcing time-step (DT_FORCING in ocean-only mode
@@ -397,17 +400,17 @@ SALINITYRESTORE_FILE = "11-27_NaN_SAL.nc" ! The file with the surface salinity t
 				! given by SSS_RESTORE_VAR.
 !SSS_RESTORE_VAR = "temp"       ! default = "SST" <-- possibly...
                                 !
-SENSIBLEHEAT_FILE = "11-27_zero_Heat.nc"	!
+SENSIBLEHEAT_FILE = "7-17_Heat_all_zeros3.nc"	!
                                 !
 PRECIP_FILE = "11-29_PmE_all_zeros.nc"		!
                                 !
-SHORTWAVE_FILE = "11-27_zero_NET_SOL.nc"  	!
+SHORTWAVE_FILE = "7-17_NET_SOL_all_zeros3.nc"  	!
 
 ! === module MOM_main (MOM_driver) ===
 DT_FORCING = 36000.0             !   [s] default = 1200.0
                                 ! The time step for changing forcing, coupling with other components, or
                                 ! potentially writing certain diagnostics. The default value is given by DT.
-DAYMAX = 817180                  !   [days]
+DAYMAX = 569400                  !   [days]
                                 ! The final time of the whole simulation, in units of TIMEUNIT seconds.  This
                                 ! also sets the potential end time of the present run segment if the end time is
                                 ! not set via ocean_solo_nml in input.nml.

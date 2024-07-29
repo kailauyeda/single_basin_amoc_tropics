@@ -1,8 +1,8 @@
 "MOM Experiment"
 1 1 1 0 0 0
-"4-24linear_d2_prog_%4yr_%3dy",     1825,"days",1,"days","Time",7300,"days"
+"7-17_SB_linear_d2_prog_%4yr_%3dy",     3650,"days",1,"days","Time",36500,"days"
 #"d2_ave_prog_%4yr_%3dy", 5,"days",1,"days","Time",365,"days"
-#"linear_d2_cont_%4yr_%3dy",     365,"days",1,"days","Time",1825,"days"
+#"7-17_SB_linear_d2_cont_%4yr_%3dy",     3650,"days",1,"days","Time",36500,"days"
 #"mom_%4yr_%3dy",      5,"days",1,"days","Time",10,"days"
 #"bt_mom_%4yr_%3dy",   5,"days",1,"days","Time",10,"days"
 #"visc_%4yr_%3dy",     3650,"days",1,"days","Time",10950,"days"
@@ -15,15 +15,15 @@
 # Prognostic Ocean fields:
 #=========================
 
-"ocean_model","u","u","4-24linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
-"ocean_model","v","v","4-24linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
-"ocean_model","h","h","4-24linear_d2_prog_%4yr_%3dy","all",.false.,"none",1
-"ocean_model","e","e","4-24linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
-"ocean_model","temp","temp","4-24linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
-"ocean_model","salt","salt","4-24linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
+"ocean_model","u","u","7-17_SB_linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
+"ocean_model","v","v","7-17_SB_linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
+"ocean_model","h","h","7-17_SB_linear_d2_prog_%4yr_%3dy","all",.false.,"none",1
+"ocean_model","e","e","7-17_SB_linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
+"ocean_model","temp","temp","7-17_SB_linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
+"ocean_model","salt","salt","7-17_SB_linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
 #"ocean_model","Rml","Rml","prog_%4yr_%3dy","all",.false.,"none",2
 
-#"ocean_model","net_heat_surface","net_heat_surface","linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
+"ocean_model","net_heat_surface","net_heat_surface","7-17_SB_linear_d2_prog_%4yr_%3dy","all",.false.,"none",2
 
 #"ocean_model","RV","RV","prog_%4yr_%3dy","all",.false.,"none",2
 #"ocean_model","PV","PV","prog_%4yr_%3dy","all",.false.,"none",2
@@ -41,8 +41,8 @@
 #===========================
 #"ocean_model","dhdt","dhdt","cont_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","wd","wd","cont_%4yr_%3dy","all",.true.,"none",2
-#"ocean_model","uh","uh","linear_d2_cont_%4yr_%3dy","all",.true.,"none",2
-#"ocean_model","vh","vh","linear_d2_cont_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","uh","uh","7-17_SB_linear_d2_cont_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","vh","vh","7-17_SB_linear_d2_cont_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","uhGM","uhGM","cont_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","vhGM","vhGM","cont_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","uhbt","uhbt","cont_%4yr_%3dy","all",.true.,"none",2
