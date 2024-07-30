@@ -18,3 +18,4 @@ Texas A&M 2023-2024
 
 * `src/drifters` code is from [drifters](https://github.com/kailauyeda/drifters) ([Spencer's drifters package](https://github.com/cspencerjones/drifters))
 * `RESTART` files are located in `/vortex1/kuyeda_files/RESTART_files`.
+* The output file `drifter_trajectories.nc` must be renamed or moved if you would like to run the drifters code starting from the positions in `drifters.res.nc` again.
